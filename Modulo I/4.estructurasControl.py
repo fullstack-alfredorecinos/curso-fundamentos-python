@@ -58,3 +58,10 @@ while intentos > 0:
         print("Usuario o contraseña incorrectos")
         intentos -= 1
         print(f"Le quedan {intentos} intentos usuario bloqueado")
+
+"""
+Ejemplo de estructura de un ciclo
+1.Inicio
+2.Condición
+3.Incremento/Decremento
+"""

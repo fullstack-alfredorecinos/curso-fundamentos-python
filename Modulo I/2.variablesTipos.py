@@ -16,16 +16,15 @@ es_alto = True
 """Los nombres de las variables deben comenzar con una letra (a-z, A-Z) o un guion bajo (_).
 El resto del nombre puede incluir letras, números y guiones bajos.
 Ejemplos de nombres válidos: mi_variable, variable2, _variable.
-camelCase  -> primerNombre
+camelCase  -> primerNombre, es muy utilizado en otros lenguajes como java, javascript o c#
 PascalCase -> PrimerNombre
-snake_case -> primer_nombre
+snake_case -> primer_nombre, _primer_nombre, se utiliza mucho en python
 lowercase  -> primernombre
 uppercase  -> PRIMERNOMBRE
 uppercase snake_case -> PRIMER_NOMBRE
 """
 
 # Ejemplo quiero calcular el salario de una persona a partir del valor de la hora y la cantidad
-
 valor_hora = 10500
 cantidad_horas = 8
 salario = valor_hora * cantidad_horas

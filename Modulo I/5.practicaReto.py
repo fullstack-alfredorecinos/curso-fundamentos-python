@@ -4,6 +4,7 @@
 #2. comprar producto
 #3. devolver cambio
 #4. salir
+# salto de línea \n
 menu = """
 Bienvenido a la maquina expendedora de comida
 1. Ingresar dinero

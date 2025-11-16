@@ -8,6 +8,7 @@
 
 ## NOTAS:
 -Python es un lenguaje interpretado y de alto nivel.
+-git pull --rebase origin main # Actualiza el repositorio local con los últimos cambios del repositorio remoto.
 
 ### Comandos básicos de Python
 -python --version: Muestra la versión de Python instalada.
@@ -25,3 +26,8 @@
 - `def`: Define una función.
 - `class`: Define una clase.
 - `import`: Importa módulos y bibliotecas.
+
+#### Links herramientas complementarias para trabajar con PYTHON
+-https://replit.com/
+-https://pythontutor.com/
+-https://colab.research.google.com/

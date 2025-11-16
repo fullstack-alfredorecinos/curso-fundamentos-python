@@ -19,3 +19,4 @@ print("Bienvenidos al curso de programación con python")
 #entrada y salida de datos
 x = input("ingrese un valor: ")
 print("El valor que escribiste es [", x, "] bien hecho!")
+

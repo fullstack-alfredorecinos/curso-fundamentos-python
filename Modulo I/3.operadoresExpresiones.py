@@ -23,15 +23,26 @@ y_logico = True and False
 o_logico = True or False
 negacion = not True
 print(y_logico)
+
 #ejemplo
 usuario = True
 contrasena = False
-inicio_sesion = usuario or contrasena
+# inicio_sesion = usuario or contrasena
+inicio_sesion = usuario and contrasena
 print("inicio de sesion", inicio_sesion)
 
 """2... Expresiones condicionales"""
 """ Las expresiones son combinaciones de valores, variables y operadores que Python evalúa y produce un valor."""
 #https://recursos.pacoelchato.com/img/YBHU7L482hY4Ry7xUqLAmGk4iJPdx9oxVaGU9pGl.png
+""" 
+Jerarquía de expresiones
+La jerarquía de expresiones en Python determina el orden en que se evalúan las operaciones en una expresión compleja.
+() paréntesis - 1er Nivel
+^ Potencia - 2do Nivel
+X o * Multiplicación y / % o / División - 3er Nivel
++ Suma y - Resta - 4to Nivel
+
+"""
 a = 10
 b = 5
 c = 2
@@ -52,3 +63,5 @@ tiene_permiso = False
 print("es_adulto y tiene_permiso:", es_adulto and tiene_permiso)
 print("es_adulto o tiene_permiso:", es_adulto or tiene_permiso)
 print("no es_adulto:", not es_adulto)
+
+
