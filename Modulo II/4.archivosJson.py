@@ -6,7 +6,11 @@ Una lista JSON es una colección ordenada de valores.
 """
 import json
 import pprint
-file_path = 'datos.json'
+import os
+
+# Obtener la ruta del directorio actual del script
+script_dir = os.path.dirname(os.path.abspath(__file__))
+file_path = os.path.join(script_dir, 'datos.json')
 
 #with es lo que se denomina context manager que asegura que los recursos se manejen de manera segura y eficiente. sirve para conexiones a bd
 
@@ -18,19 +22,19 @@ with open(file_path, 'r') as file:
 
 
 #escritura de archivos json
-datos_nuevos = {
-    "nombre": "Jhon",
-    "edad": 40,
-    "ciudad": "Bogota",
-    "hobbies": ["leer", "caminar"]
-}
+# datos_nuevos = {
+#     "nombre": "Jhon",
+#     "edad": 40,
+#     "ciudad": "Bogota",
+#     "hobbies": ["leer", "caminar"]
+# }
 
-data.append(datos_nuevos)
+# data.append(datos_nuevos)
 
-with open(file_path, 'w') as file:
+# with open(file_path, 'w') as file:
 
-    json.dump(data, file, indent=4)
-    print("Archivo JSON creado correctamente.")
+#     json.dump(data, file, indent=4)
+#     print("Archivo JSON creado correctamente.")
 
 
 

@@ -6,7 +6,9 @@
 my_dict = {
     "name": "John",
     "age": 30,
-    "city": "New York"
+    "city": "New York",
+    "telephone": [123456789, 987654321],
+    "mails": {"gmail": "john@gmail.com", "hotmail": "john@hotmail.com"}
 }
 
  # Access values by key
@@ -21,11 +23,14 @@ print(len(my_dict))  # Output: 3
 print(my_dict.get("age"))  # Output: 30
 print(my_dict.pop("age"))  # Output: 30
 
+
 #agregar elementos al diccionario
 my_dict["age"] = 31
 print(my_dict)
 my_dict["occupation"] = "Engineer"
 print(my_dict)
+# my_dict.clear()
+# print(my_dict)  # Output: {}
 
 #conjuntos en python
 conjunto = {1, 2, 3, 4, 5}

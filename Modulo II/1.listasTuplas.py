@@ -9,7 +9,7 @@ Practicar con ejemplos para consolidar los conceptos.
 #listas
 #creacion de una lista1.
 lista = [1, 2, 3, 4, 5]
-lista_con_elementos_diferentes = [1, "hola", True, 3.14]
+lista_con_elementos_diferentes = [1, "hola", True, 3.14, [1,2,3]]
 print(lista)
 print(lista_con_elementos_diferentes)
 
