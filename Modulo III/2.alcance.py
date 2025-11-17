@@ -51,3 +51,9 @@ def funcion_externa():
     funcion_interior()
 
 funcion_externa()
+
+#ciclo for
+lista = [1, 2, 3, 4, 5]
+for numero in lista:
+    print(numero)
+print(numero)  # Acceso a la variable del ciclo for fuera del ciclo
