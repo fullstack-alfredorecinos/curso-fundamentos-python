@@ -17,5 +17,14 @@
             "leer",
             "caminar"
         ]
+    },
+    {
+        "nombre": "Jhon",
+        "edad": 40,
+        "ciudad": "Bogota",
+        "hobbies": [
+            "leer",
+            "caminar"
+        ]
     }
 ]

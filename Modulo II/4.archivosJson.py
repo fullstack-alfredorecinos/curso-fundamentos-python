@@ -21,20 +21,20 @@ with open(file_path, 'r') as file:
     pprint.pprint(data)
 
 
-#escritura de archivos json
-# datos_nuevos = {
-#     "nombre": "Jhon",
-#     "edad": 40,
-#     "ciudad": "Bogota",
-#     "hobbies": ["leer", "caminar"]
-# }
+# escritura de archivos json
+datos_nuevos = {
+    "nombre": "Jhon",
+    "edad": 40,
+    "ciudad": "Bogota",
+    "hobbies": ["leer", "caminar"]
+}
 
-# data.append(datos_nuevos)
+data.append(datos_nuevos)
 
-# with open(file_path, 'w') as file:
+with open(file_path, 'w') as file:
 
-#     json.dump(data, file, indent=4)
-#     print("Archivo JSON creado correctamente.")
+    json.dump(data, file, indent=4)
+    print("Archivo JSON creado correctamente.")
 
 
 
