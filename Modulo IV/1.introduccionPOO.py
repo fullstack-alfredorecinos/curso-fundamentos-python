@@ -21,7 +21,7 @@ self.apellido es otra variable de instancia.
 """
 
 class Usuario:
-    def __init__(self, nombre, apellido):
+    def __init__(self, nombre, apellido): #init método constructor define las características del objeto o plantilla
         self.nombre = nombre
         self.apellido = apellido
 
@@ -36,6 +36,10 @@ print(usuario1.nombre)
 print(usuario2.nombre)
 usuario1.saludo()
 usuario2.saludo()
+
+#Modificar el objeto    
+# usuario1.nombre = 'Pedro'
+# usuario1.apellido = 'Gomez'
 
 #definir una clase factura
 class Factura:

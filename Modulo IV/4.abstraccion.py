@@ -26,3 +26,10 @@ class Gato(Animal):
 
     def moverse(self):
         return "Camina sigilosamente"
+    
+Perro = Perro()
+print(Perro.hacer_sonido())
+print(Perro.moverse())
+Gato = Gato()
+print(Gato.hacer_sonido())
+print(Gato.moverse())

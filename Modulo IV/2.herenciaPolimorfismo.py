@@ -20,13 +20,20 @@ class Car(Vehicle):
 
     def tanquear(self):
         print("Refueling the car")
+class Motorcycle(Vehicle):
+    def __init__(self, make, model, year, engine_type):
+        super().__init__(make, model, year)
+        self.engine_type = engine_type
+
+    def pop_wheelie(self):
+        print("Popping a wheelie!")
 
 my_car = Car("Toyota", "Camry", 2020, "Gasoline")
 print(my_car.make)  # Output: Toyota
 print(my_car.model)  # Output: Camry
 print(my_car.year)  # Output: 2020
 my_car.start()  # Output: Starting the vehicle
-my_car.refuel()  # Output: Refueling the car
+my_car.tanquear()  # Output: Refueling the car
 my_car.stop()  # Output: Stopping the vehicle
 
 """
