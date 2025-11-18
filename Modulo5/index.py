@@ -29,3 +29,10 @@ if __name__ == '__main__':
     app.run(debug=True)
 
 
+# python -m venv env
+# py -3 -m venv .env
+# Notas de entorno/instalación (convertidas a comentarios para evitar
+# warnings por secuencias de escape en literales de cadena):
+# python -m venv env
+# .\env\Scripts\pip install flask
+# source env/Scripts/activate
